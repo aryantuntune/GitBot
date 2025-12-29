@@ -1,0 +1,10 @@
+{
+  "gemini_key": "YOUR_GEMINI_API_KEY_HERE",
+  "model": "qwen2.5-coder:7b",
+  "interval": 60,
+  "max_commits": 20,
+  "idle_threshold": 40,
+  "repo_url": "https://github.com/yourusername/your-repo.git",
+  "name": "YourName",
+  "email": "your.email@example.com"
+}

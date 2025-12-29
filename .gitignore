@@ -1,0 +1,67 @@
+# ========================================
+# SENSITIVE - NEVER COMMIT THESE
+# ========================================
+bot_config.json
+*.key
+*.pem
+*.env
+
+# ========================================
+# STATE & RUNTIME FILES
+# ========================================
+daily_stats.json
+current_project.json
+project_state.json
+
+# ========================================
+# LOGS & TRANSCRIPTS
+# ========================================
+debug.log
+debug_full.log
+conversation_transcript.md
+*.log
+logs/
+
+# ========================================
+# GENERATED OUTPUT
+# ========================================
+output/
+generated_activity.txt
+activity_log.txt
+_debug_stream.txt
+
+# ========================================
+# PYTHON
+# ========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ========================================
+# IDE & EDITORS
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# ========================================
+# OS
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================================
+# GIT
+# ========================================
+*.orig
